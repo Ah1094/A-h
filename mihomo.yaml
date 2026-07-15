@@ -31,22 +31,22 @@ external-controller: 127.0.0.1:9090
 proxies:
   - {name: "📢 https://t.me/irnova_proxy", server: 192.0.2.1, port: 443, type: vmess, uuid: 9ef641e3-2842-40a7-8d14-ae62eaeb5d61, alterId: 0, cipher: auto, tls: true, servername: nova-atlas-garden-1035.ghamir1094.workers.dev, network: ws, ws-opts: {path: /?fake=1, headers: {Host: nova-atlas-garden-1035.ghamir1094.workers.dev}}, udp: false}
   - {name: "سرویس رایگان نوا nova-atlas-garden-1035.ghamir1094.workers.dev:443 [VLESS]", server: nova-atlas-garden-1035.ghamir1094.workers.dev, port: 443, type: vless, uuid: 9ef641e3-2842-40a7-8d14-ae62eaeb5d61, tls: true, skip-cert-verify: false, servername: nova-atlas-garden-1035.ghamir1094.workers.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: nova-atlas-garden-1035.ghamir1094.workers.dev}}}
-  - {name: "سرویس رایگان نوا 91.193.59.250:2053 [VLESS]", server: 91.193.59.250, port: 2053, type: vless, uuid: 9ef641e3-2842-40a7-8d14-ae62eaeb5d61, tls: true, skip-cert-verify: false, servername: nova-atlas-garden-1035.ghamir1094.workers.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: nova-atlas-garden-1035.ghamir1094.workers.dev}}}
-  - {name: "سرویس رایگان نوا 104.26.5.36:2053 [VLESS]", server: 104.26.5.36, port: 2053, type: vless, uuid: 9ef641e3-2842-40a7-8d14-ae62eaeb5d61, tls: true, skip-cert-verify: false, servername: nova-atlas-garden-1035.ghamir1094.workers.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: nova-atlas-garden-1035.ghamir1094.workers.dev}}}
-  - {name: "سرویس رایگان نوا 104.17.165.100:8443 [VLESS]", server: 104.17.165.100, port: 8443, type: vless, uuid: 9ef641e3-2842-40a7-8d14-ae62eaeb5d61, tls: true, skip-cert-verify: false, servername: nova-atlas-garden-1035.ghamir1094.workers.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: nova-atlas-garden-1035.ghamir1094.workers.dev}}}
-  - {name: "سرویس رایگان نوا 172.67.66.46:2083 [VLESS]", server: 172.67.66.46, port: 2083, type: vless, uuid: 9ef641e3-2842-40a7-8d14-ae62eaeb5d61, tls: true, skip-cert-verify: false, servername: nova-atlas-garden-1035.ghamir1094.workers.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: nova-atlas-garden-1035.ghamir1094.workers.dev}}}
-  - {name: "سرویس رایگان نوا 104.16.250.80:2083 [VLESS]", server: 104.16.250.80, port: 2083, type: vless, uuid: 9ef641e3-2842-40a7-8d14-ae62eaeb5d61, tls: true, skip-cert-verify: false, servername: nova-atlas-garden-1035.ghamir1094.workers.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: nova-atlas-garden-1035.ghamir1094.workers.dev}}}
-  - {name: "سرویس رایگان نوا 104.19.34.33:2083 [VLESS]", server: 104.19.34.33, port: 2083, type: vless, uuid: 9ef641e3-2842-40a7-8d14-ae62eaeb5d61, tls: true, skip-cert-verify: false, servername: nova-atlas-garden-1035.ghamir1094.workers.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: nova-atlas-garden-1035.ghamir1094.workers.dev}}}
-  - {name: "سرویس رایگان نوا 104.26.9.233:2053 [VLESS]", server: 104.26.9.233, port: 2053, type: vless, uuid: 9ef641e3-2842-40a7-8d14-ae62eaeb5d61, tls: true, skip-cert-verify: false, servername: nova-atlas-garden-1035.ghamir1094.workers.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: nova-atlas-garden-1035.ghamir1094.workers.dev}}}
-  - {name: "سرویس رایگان نوا 104.17.30.73:443 [VLESS]", server: 104.17.30.73, port: 443, type: vless, uuid: 9ef641e3-2842-40a7-8d14-ae62eaeb5d61, tls: true, skip-cert-verify: false, servername: nova-atlas-garden-1035.ghamir1094.workers.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: nova-atlas-garden-1035.ghamir1094.workers.dev}}}
-  - {name: "سرویس رایگان نوا 104.19.50.179:2053 [VLESS]", server: 104.19.50.179, port: 2053, type: vless, uuid: 9ef641e3-2842-40a7-8d14-ae62eaeb5d61, tls: true, skip-cert-verify: false, servername: nova-atlas-garden-1035.ghamir1094.workers.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: nova-atlas-garden-1035.ghamir1094.workers.dev}}}
-  - {name: "سرویس رایگان نوا 104.26.11.162:443 [VLESS]", server: 104.26.11.162, port: 443, type: vless, uuid: 9ef641e3-2842-40a7-8d14-ae62eaeb5d61, tls: true, skip-cert-verify: false, servername: nova-atlas-garden-1035.ghamir1094.workers.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: nova-atlas-garden-1035.ghamir1094.workers.dev}}}
-  - {name: "سرویس رایگان نوا 104.17.153.228:2087 [VLESS]", server: 104.17.153.228, port: 2087, type: vless, uuid: 9ef641e3-2842-40a7-8d14-ae62eaeb5d61, tls: true, skip-cert-verify: false, servername: nova-atlas-garden-1035.ghamir1094.workers.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: nova-atlas-garden-1035.ghamir1094.workers.dev}}}
-  - {name: "سرویس رایگان نوا 198.41.223.93:443 [VLESS]", server: 198.41.223.93, port: 443, type: vless, uuid: 9ef641e3-2842-40a7-8d14-ae62eaeb5d61, tls: true, skip-cert-verify: false, servername: nova-atlas-garden-1035.ghamir1094.workers.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: nova-atlas-garden-1035.ghamir1094.workers.dev}}}
-  - {name: "سرویس رایگان نوا 162.159.39.99:2096 [VLESS]", server: 162.159.39.99, port: 2096, type: vless, uuid: 9ef641e3-2842-40a7-8d14-ae62eaeb5d61, tls: true, skip-cert-verify: false, servername: nova-atlas-garden-1035.ghamir1094.workers.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: nova-atlas-garden-1035.ghamir1094.workers.dev}}}
-  - {name: "سرویس رایگان نوا 104.26.8.0:8443 [VLESS]", server: 104.26.8.0, port: 8443, type: vless, uuid: 9ef641e3-2842-40a7-8d14-ae62eaeb5d61, tls: true, skip-cert-verify: false, servername: nova-atlas-garden-1035.ghamir1094.workers.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: nova-atlas-garden-1035.ghamir1094.workers.dev}}}
-  - {name: "سرویس رایگان نوا 104.17.153.194:2053 [VLESS]", server: 104.17.153.194, port: 2053, type: vless, uuid: 9ef641e3-2842-40a7-8d14-ae62eaeb5d61, tls: true, skip-cert-verify: false, servername: nova-atlas-garden-1035.ghamir1094.workers.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: nova-atlas-garden-1035.ghamir1094.workers.dev}}}
-  - {name: "سرویس رایگان نوا 198.41.209.44:2096 [VLESS]", server: 198.41.209.44, port: 2096, type: vless, uuid: 9ef641e3-2842-40a7-8d14-ae62eaeb5d61, tls: true, skip-cert-verify: false, servername: nova-atlas-garden-1035.ghamir1094.workers.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: nova-atlas-garden-1035.ghamir1094.workers.dev}}}
+  - {name: "سرویس رایگان نوا 104.16.149.231:2096 [VLESS]", server: 104.16.149.231, port: 2096, type: vless, uuid: 9ef641e3-2842-40a7-8d14-ae62eaeb5d61, tls: true, skip-cert-verify: false, servername: nova-atlas-garden-1035.ghamir1094.workers.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: nova-atlas-garden-1035.ghamir1094.workers.dev}}}
+  - {name: "سرویس رایگان نوا 104.17.151.231:2087 [VLESS]", server: 104.17.151.231, port: 2087, type: vless, uuid: 9ef641e3-2842-40a7-8d14-ae62eaeb5d61, tls: true, skip-cert-verify: false, servername: nova-atlas-garden-1035.ghamir1094.workers.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: nova-atlas-garden-1035.ghamir1094.workers.dev}}}
+  - {name: "سرویس رایگان نوا 198.41.208.29:2087 [VLESS]", server: 198.41.208.29, port: 2087, type: vless, uuid: 9ef641e3-2842-40a7-8d14-ae62eaeb5d61, tls: true, skip-cert-verify: false, servername: nova-atlas-garden-1035.ghamir1094.workers.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: nova-atlas-garden-1035.ghamir1094.workers.dev}}}
+  - {name: "سرویس رایگان نوا 104.17.127.108:2096 [VLESS]", server: 104.17.127.108, port: 2096, type: vless, uuid: 9ef641e3-2842-40a7-8d14-ae62eaeb5d61, tls: true, skip-cert-verify: false, servername: nova-atlas-garden-1035.ghamir1094.workers.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: nova-atlas-garden-1035.ghamir1094.workers.dev}}}
+  - {name: "سرویس رایگان نوا 104.17.156.169:8443 [VLESS]", server: 104.17.156.169, port: 8443, type: vless, uuid: 9ef641e3-2842-40a7-8d14-ae62eaeb5d61, tls: true, skip-cert-verify: false, servername: nova-atlas-garden-1035.ghamir1094.workers.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: nova-atlas-garden-1035.ghamir1094.workers.dev}}}
+  - {name: "سرویس رایگان نوا 104.16.150.14:2053 [VLESS]", server: 104.16.150.14, port: 2053, type: vless, uuid: 9ef641e3-2842-40a7-8d14-ae62eaeb5d61, tls: true, skip-cert-verify: false, servername: nova-atlas-garden-1035.ghamir1094.workers.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: nova-atlas-garden-1035.ghamir1094.workers.dev}}}
+  - {name: "سرویس رایگان نوا 91.193.59.194:2087 [VLESS]", server: 91.193.59.194, port: 2087, type: vless, uuid: 9ef641e3-2842-40a7-8d14-ae62eaeb5d61, tls: true, skip-cert-verify: false, servername: nova-atlas-garden-1035.ghamir1094.workers.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: nova-atlas-garden-1035.ghamir1094.workers.dev}}}
+  - {name: "سرویس رایگان نوا 173.245.58.16:2083 [VLESS]", server: 173.245.58.16, port: 2083, type: vless, uuid: 9ef641e3-2842-40a7-8d14-ae62eaeb5d61, tls: true, skip-cert-verify: false, servername: nova-atlas-garden-1035.ghamir1094.workers.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: nova-atlas-garden-1035.ghamir1094.workers.dev}}}
+  - {name: "سرویس رایگان نوا 8.39.125.63:443 [VLESS]", server: 8.39.125.63, port: 443, type: vless, uuid: 9ef641e3-2842-40a7-8d14-ae62eaeb5d61, tls: true, skip-cert-verify: false, servername: nova-atlas-garden-1035.ghamir1094.workers.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: nova-atlas-garden-1035.ghamir1094.workers.dev}}}
+  - {name: "سرویس رایگان نوا 104.17.115.104:8443 [VLESS]", server: 104.17.115.104, port: 8443, type: vless, uuid: 9ef641e3-2842-40a7-8d14-ae62eaeb5d61, tls: true, skip-cert-verify: false, servername: nova-atlas-garden-1035.ghamir1094.workers.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: nova-atlas-garden-1035.ghamir1094.workers.dev}}}
+  - {name: "سرویس رایگان نوا 104.17.105.83:443 [VLESS]", server: 104.17.105.83, port: 443, type: vless, uuid: 9ef641e3-2842-40a7-8d14-ae62eaeb5d61, tls: true, skip-cert-verify: false, servername: nova-atlas-garden-1035.ghamir1094.workers.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: nova-atlas-garden-1035.ghamir1094.workers.dev}}}
+  - {name: "سرویس رایگان نوا 8.39.125.146:443 [VLESS]", server: 8.39.125.146, port: 443, type: vless, uuid: 9ef641e3-2842-40a7-8d14-ae62eaeb5d61, tls: true, skip-cert-verify: false, servername: nova-atlas-garden-1035.ghamir1094.workers.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: nova-atlas-garden-1035.ghamir1094.workers.dev}}}
+  - {name: "سرویس رایگان نوا 104.19.149.191:2096 [VLESS]", server: 104.19.149.191, port: 2096, type: vless, uuid: 9ef641e3-2842-40a7-8d14-ae62eaeb5d61, tls: true, skip-cert-verify: false, servername: nova-atlas-garden-1035.ghamir1094.workers.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: nova-atlas-garden-1035.ghamir1094.workers.dev}}}
+  - {name: "سرویس رایگان نوا 104.19.35.39:2096 [VLESS]", server: 104.19.35.39, port: 2096, type: vless, uuid: 9ef641e3-2842-40a7-8d14-ae62eaeb5d61, tls: true, skip-cert-verify: false, servername: nova-atlas-garden-1035.ghamir1094.workers.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: nova-atlas-garden-1035.ghamir1094.workers.dev}}}
+  - {name: "سرویس رایگان نوا 104.26.2.102:8443 [VLESS]", server: 104.26.2.102, port: 8443, type: vless, uuid: 9ef641e3-2842-40a7-8d14-ae62eaeb5d61, tls: true, skip-cert-verify: false, servername: nova-atlas-garden-1035.ghamir1094.workers.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: nova-atlas-garden-1035.ghamir1094.workers.dev}}}
+  - {name: "سرویس رایگان نوا 104.17.150.247:2053 [VLESS]", server: 104.17.150.247, port: 2053, type: vless, uuid: 9ef641e3-2842-40a7-8d14-ae62eaeb5d61, tls: true, skip-cert-verify: false, servername: nova-atlas-garden-1035.ghamir1094.workers.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: nova-atlas-garden-1035.ghamir1094.workers.dev}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -57,22 +57,22 @@ proxy-groups:
       - 🔮 负载均衡
       - DIRECT
       - سرویس رایگان نوا nova-atlas-garden-1035.ghamir1094.workers.dev:443 [VLESS]
-      - سرویس رایگان نوا 91.193.59.250:2053 [VLESS]
-      - سرویس رایگان نوا 104.26.5.36:2053 [VLESS]
-      - سرویس رایگان نوا 104.17.165.100:8443 [VLESS]
-      - سرویس رایگان نوا 172.67.66.46:2083 [VLESS]
-      - سرویس رایگان نوا 104.16.250.80:2083 [VLESS]
-      - سرویس رایگان نوا 104.19.34.33:2083 [VLESS]
-      - سرویس رایگان نوا 104.26.9.233:2053 [VLESS]
-      - سرویس رایگان نوا 104.17.30.73:443 [VLESS]
-      - سرویس رایگان نوا 104.19.50.179:2053 [VLESS]
-      - سرویس رایگان نوا 104.26.11.162:443 [VLESS]
-      - سرویس رایگان نوا 104.17.153.228:2087 [VLESS]
-      - سرویس رایگان نوا 198.41.223.93:443 [VLESS]
-      - سرویس رایگان نوا 162.159.39.99:2096 [VLESS]
-      - سرویس رایگان نوا 104.26.8.0:8443 [VLESS]
-      - سرویس رایگان نوا 104.17.153.194:2053 [VLESS]
-      - سرویس رایگان نوا 198.41.209.44:2096 [VLESS]
+      - سرویس رایگان نوا 104.16.149.231:2096 [VLESS]
+      - سرویس رایگان نوا 104.17.151.231:2087 [VLESS]
+      - سرویس رایگان نوا 198.41.208.29:2087 [VLESS]
+      - سرویس رایگان نوا 104.17.127.108:2096 [VLESS]
+      - سرویس رایگان نوا 104.17.156.169:8443 [VLESS]
+      - سرویس رایگان نوا 104.16.150.14:2053 [VLESS]
+      - سرویس رایگان نوا 91.193.59.194:2087 [VLESS]
+      - سرویس رایگان نوا 173.245.58.16:2083 [VLESS]
+      - سرویس رایگان نوا 8.39.125.63:443 [VLESS]
+      - سرویس رایگان نوا 104.17.115.104:8443 [VLESS]
+      - سرویس رایگان نوا 104.17.105.83:443 [VLESS]
+      - سرویس رایگان نوا 8.39.125.146:443 [VLESS]
+      - سرویس رایگان نوا 104.19.149.191:2096 [VLESS]
+      - سرویس رایگان نوا 104.19.35.39:2096 [VLESS]
+      - سرویس رایگان نوا 104.26.2.102:8443 [VLESS]
+      - سرویس رایگان نوا 104.17.150.247:2053 [VLESS]
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -80,44 +80,44 @@ proxy-groups:
     tolerance: 50
     proxies:
       - سرویس رایگان نوا nova-atlas-garden-1035.ghamir1094.workers.dev:443 [VLESS]
-      - سرویس رایگان نوا 91.193.59.250:2053 [VLESS]
-      - سرویس رایگان نوا 104.26.5.36:2053 [VLESS]
-      - سرویس رایگان نوا 104.17.165.100:8443 [VLESS]
-      - سرویس رایگان نوا 172.67.66.46:2083 [VLESS]
-      - سرویس رایگان نوا 104.16.250.80:2083 [VLESS]
-      - سرویس رایگان نوا 104.19.34.33:2083 [VLESS]
-      - سرویس رایگان نوا 104.26.9.233:2053 [VLESS]
-      - سرویس رایگان نوا 104.17.30.73:443 [VLESS]
-      - سرویس رایگان نوا 104.19.50.179:2053 [VLESS]
-      - سرویس رایگان نوا 104.26.11.162:443 [VLESS]
-      - سرویس رایگان نوا 104.17.153.228:2087 [VLESS]
-      - سرویس رایگان نوا 198.41.223.93:443 [VLESS]
-      - سرویس رایگان نوا 162.159.39.99:2096 [VLESS]
-      - سرویس رایگان نوا 104.26.8.0:8443 [VLESS]
-      - سرویس رایگان نوا 104.17.153.194:2053 [VLESS]
-      - سرویس رایگان نوا 198.41.209.44:2096 [VLESS]
+      - سرویس رایگان نوا 104.16.149.231:2096 [VLESS]
+      - سرویس رایگان نوا 104.17.151.231:2087 [VLESS]
+      - سرویس رایگان نوا 198.41.208.29:2087 [VLESS]
+      - سرویس رایگان نوا 104.17.127.108:2096 [VLESS]
+      - سرویس رایگان نوا 104.17.156.169:8443 [VLESS]
+      - سرویس رایگان نوا 104.16.150.14:2053 [VLESS]
+      - سرویس رایگان نوا 91.193.59.194:2087 [VLESS]
+      - سرویس رایگان نوا 173.245.58.16:2083 [VLESS]
+      - سرویس رایگان نوا 8.39.125.63:443 [VLESS]
+      - سرویس رایگان نوا 104.17.115.104:8443 [VLESS]
+      - سرویس رایگان نوا 104.17.105.83:443 [VLESS]
+      - سرویس رایگان نوا 8.39.125.146:443 [VLESS]
+      - سرویس رایگان نوا 104.19.149.191:2096 [VLESS]
+      - سرویس رایگان نوا 104.19.35.39:2096 [VLESS]
+      - سرویس رایگان نوا 104.26.2.102:8443 [VLESS]
+      - سرویس رایگان نوا 104.17.150.247:2053 [VLESS]
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
       - سرویس رایگان نوا nova-atlas-garden-1035.ghamir1094.workers.dev:443 [VLESS]
-      - سرویس رایگان نوا 91.193.59.250:2053 [VLESS]
-      - سرویس رایگان نوا 104.26.5.36:2053 [VLESS]
-      - سرویس رایگان نوا 104.17.165.100:8443 [VLESS]
-      - سرویس رایگان نوا 172.67.66.46:2083 [VLESS]
-      - سرویس رایگان نوا 104.16.250.80:2083 [VLESS]
-      - سرویس رایگان نوا 104.19.34.33:2083 [VLESS]
-      - سرویس رایگان نوا 104.26.9.233:2053 [VLESS]
-      - سرویس رایگان نوا 104.17.30.73:443 [VLESS]
-      - سرویس رایگان نوا 104.19.50.179:2053 [VLESS]
-      - سرویس رایگان نوا 104.26.11.162:443 [VLESS]
-      - سرویس رایگان نوا 104.17.153.228:2087 [VLESS]
-      - سرویس رایگان نوا 198.41.223.93:443 [VLESS]
-      - سرویس رایگان نوا 162.159.39.99:2096 [VLESS]
-      - سرویس رایگان نوا 104.26.8.0:8443 [VLESS]
-      - سرویس رایگان نوا 104.17.153.194:2053 [VLESS]
-      - سرویس رایگان نوا 198.41.209.44:2096 [VLESS]
+      - سرویس رایگان نوا 104.16.149.231:2096 [VLESS]
+      - سرویس رایگان نوا 104.17.151.231:2087 [VLESS]
+      - سرویس رایگان نوا 198.41.208.29:2087 [VLESS]
+      - سرویس رایگان نوا 104.17.127.108:2096 [VLESS]
+      - سرویس رایگان نوا 104.17.156.169:8443 [VLESS]
+      - سرویس رایگان نوا 104.16.150.14:2053 [VLESS]
+      - سرویس رایگان نوا 91.193.59.194:2087 [VLESS]
+      - سرویس رایگان نوا 173.245.58.16:2083 [VLESS]
+      - سرویس رایگان نوا 8.39.125.63:443 [VLESS]
+      - سرویس رایگان نوا 104.17.115.104:8443 [VLESS]
+      - سرویس رایگان نوا 104.17.105.83:443 [VLESS]
+      - سرویس رایگان نوا 8.39.125.146:443 [VLESS]
+      - سرویس رایگان نوا 104.19.149.191:2096 [VLESS]
+      - سرویس رایگان نوا 104.19.35.39:2096 [VLESS]
+      - سرویس رایگان نوا 104.26.2.102:8443 [VLESS]
+      - سرویس رایگان نوا 104.17.150.247:2053 [VLESS]
   - name: 🔮 负载均衡
     type: load-balance
     strategy: consistent-hashing
@@ -125,22 +125,22 @@ proxy-groups:
     interval: 180
     proxies:
       - سرویس رایگان نوا nova-atlas-garden-1035.ghamir1094.workers.dev:443 [VLESS]
-      - سرویس رایگان نوا 91.193.59.250:2053 [VLESS]
-      - سرویس رایگان نوا 104.26.5.36:2053 [VLESS]
-      - سرویس رایگان نوا 104.17.165.100:8443 [VLESS]
-      - سرویس رایگان نوا 172.67.66.46:2083 [VLESS]
-      - سرویس رایگان نوا 104.16.250.80:2083 [VLESS]
-      - سرویس رایگان نوا 104.19.34.33:2083 [VLESS]
-      - سرویس رایگان نوا 104.26.9.233:2053 [VLESS]
-      - سرویس رایگان نوا 104.17.30.73:443 [VLESS]
-      - سرویس رایگان نوا 104.19.50.179:2053 [VLESS]
-      - سرویس رایگان نوا 104.26.11.162:443 [VLESS]
-      - سرویس رایگان نوا 104.17.153.228:2087 [VLESS]
-      - سرویس رایگان نوا 198.41.223.93:443 [VLESS]
-      - سرویس رایگان نوا 162.159.39.99:2096 [VLESS]
-      - سرویس رایگان نوا 104.26.8.0:8443 [VLESS]
-      - سرویس رایگان نوا 104.17.153.194:2053 [VLESS]
-      - سرویس رایگان نوا 198.41.209.44:2096 [VLESS]
+      - سرویس رایگان نوا 104.16.149.231:2096 [VLESS]
+      - سرویس رایگان نوا 104.17.151.231:2087 [VLESS]
+      - سرویس رایگان نوا 198.41.208.29:2087 [VLESS]
+      - سرویس رایگان نوا 104.17.127.108:2096 [VLESS]
+      - سرویس رایگان نوا 104.17.156.169:8443 [VLESS]
+      - سرویس رایگان نوا 104.16.150.14:2053 [VLESS]
+      - سرویس رایگان نوا 91.193.59.194:2087 [VLESS]
+      - سرویس رایگان نوا 173.245.58.16:2083 [VLESS]
+      - سرویس رایگان نوا 8.39.125.63:443 [VLESS]
+      - سرویس رایگان نوا 104.17.115.104:8443 [VLESS]
+      - سرویس رایگان نوا 104.17.105.83:443 [VLESS]
+      - سرویس رایگان نوا 8.39.125.146:443 [VLESS]
+      - سرویس رایگان نوا 104.19.149.191:2096 [VLESS]
+      - سرویس رایگان نوا 104.19.35.39:2096 [VLESS]
+      - سرویس رایگان نوا 104.26.2.102:8443 [VLESS]
+      - سرویس رایگان نوا 104.17.150.247:2053 [VLESS]
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -164,22 +164,22 @@ proxy-groups:
       - 🔯 故障转移
       - 🔮 负载均衡
       - سرویس رایگان نوا nova-atlas-garden-1035.ghamir1094.workers.dev:443 [VLESS]
-      - سرویس رایگان نوا 91.193.59.250:2053 [VLESS]
-      - سرویس رایگان نوا 104.26.5.36:2053 [VLESS]
-      - سرویس رایگان نوا 104.17.165.100:8443 [VLESS]
-      - سرویس رایگان نوا 172.67.66.46:2083 [VLESS]
-      - سرویس رایگان نوا 104.16.250.80:2083 [VLESS]
-      - سرویس رایگان نوا 104.19.34.33:2083 [VLESS]
-      - سرویس رایگان نوا 104.26.9.233:2053 [VLESS]
-      - سرویس رایگان نوا 104.17.30.73:443 [VLESS]
-      - سرویس رایگان نوا 104.19.50.179:2053 [VLESS]
-      - سرویس رایگان نوا 104.26.11.162:443 [VLESS]
-      - سرویس رایگان نوا 104.17.153.228:2087 [VLESS]
-      - سرویس رایگان نوا 198.41.223.93:443 [VLESS]
-      - سرویس رایگان نوا 162.159.39.99:2096 [VLESS]
-      - سرویس رایگان نوا 104.26.8.0:8443 [VLESS]
-      - سرویس رایگان نوا 104.17.153.194:2053 [VLESS]
-      - سرویس رایگان نوا 198.41.209.44:2096 [VLESS]
+      - سرویس رایگان نوا 104.16.149.231:2096 [VLESS]
+      - سرویس رایگان نوا 104.17.151.231:2087 [VLESS]
+      - سرویس رایگان نوا 198.41.208.29:2087 [VLESS]
+      - سرویس رایگان نوا 104.17.127.108:2096 [VLESS]
+      - سرویس رایگان نوا 104.17.156.169:8443 [VLESS]
+      - سرویس رایگان نوا 104.16.150.14:2053 [VLESS]
+      - سرویس رایگان نوا 91.193.59.194:2087 [VLESS]
+      - سرویس رایگان نوا 173.245.58.16:2083 [VLESS]
+      - سرویس رایگان نوا 8.39.125.63:443 [VLESS]
+      - سرویس رایگان نوا 104.17.115.104:8443 [VLESS]
+      - سرویس رایگان نوا 104.17.105.83:443 [VLESS]
+      - سرویس رایگان نوا 8.39.125.146:443 [VLESS]
+      - سرویس رایگان نوا 104.19.149.191:2096 [VLESS]
+      - سرویس رایگان نوا 104.19.35.39:2096 [VLESS]
+      - سرویس رایگان نوا 104.26.2.102:8443 [VLESS]
+      - سرویس رایگان نوا 104.17.150.247:2053 [VLESS]
   - name: ☁️ CloudFlareCDN
     type: select
     proxies:
@@ -191,22 +191,22 @@ proxy-groups:
       - 🔯 故障转移
       - 🔮 负载均衡
       - سرویس رایگان نوا nova-atlas-garden-1035.ghamir1094.workers.dev:443 [VLESS]
-      - سرویس رایگان نوا 91.193.59.250:2053 [VLESS]
-      - سرویس رایگان نوا 104.26.5.36:2053 [VLESS]
-      - سرویس رایگان نوا 104.17.165.100:8443 [VLESS]
-      - سرویس رایگان نوا 172.67.66.46:2083 [VLESS]
-      - سرویس رایگان نوا 104.16.250.80:2083 [VLESS]
-      - سرویس رایگان نوا 104.19.34.33:2083 [VLESS]
-      - سرویس رایگان نوا 104.26.9.233:2053 [VLESS]
-      - سرویس رایگان نوا 104.17.30.73:443 [VLESS]
-      - سرویس رایگان نوا 104.19.50.179:2053 [VLESS]
-      - سرویس رایگان نوا 104.26.11.162:443 [VLESS]
-      - سرویس رایگان نوا 104.17.153.228:2087 [VLESS]
-      - سرویس رایگان نوا 198.41.223.93:443 [VLESS]
-      - سرویس رایگان نوا 162.159.39.99:2096 [VLESS]
-      - سرویس رایگان نوا 104.26.8.0:8443 [VLESS]
-      - سرویس رایگان نوا 104.17.153.194:2053 [VLESS]
-      - سرویس رایگان نوا 198.41.209.44:2096 [VLESS]
+      - سرویس رایگان نوا 104.16.149.231:2096 [VLESS]
+      - سرویس رایگان نوا 104.17.151.231:2087 [VLESS]
+      - سرویس رایگان نوا 198.41.208.29:2087 [VLESS]
+      - سرویس رایگان نوا 104.17.127.108:2096 [VLESS]
+      - سرویس رایگان نوا 104.17.156.169:8443 [VLESS]
+      - سرویس رایگان نوا 104.16.150.14:2053 [VLESS]
+      - سرویس رایگان نوا 91.193.59.194:2087 [VLESS]
+      - سرویس رایگان نوا 173.245.58.16:2083 [VLESS]
+      - سرویس رایگان نوا 8.39.125.63:443 [VLESS]
+      - سرویس رایگان نوا 104.17.115.104:8443 [VLESS]
+      - سرویس رایگان نوا 104.17.105.83:443 [VLESS]
+      - سرویس رایگان نوا 8.39.125.146:443 [VLESS]
+      - سرویس رایگان نوا 104.19.149.191:2096 [VLESS]
+      - سرویس رایگان نوا 104.19.35.39:2096 [VLESS]
+      - سرویس رایگان نوا 104.26.2.102:8443 [VLESS]
+      - سرویس رایگان نوا 104.17.150.247:2053 [VLESS]
 rules:
   - DOMAIN-SUFFIX,play.googleapis.com,🚀 节点选择
   - DOMAIN-SUFFIX,play-fe.googleapis.com,🚀 节点选择
